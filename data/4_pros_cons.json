@@ -1,0 +1,214 @@
+{
+  "Culver City": {
+    "pros": [
+      {
+        "name": "Good location, centrally located with easy access to West LA, Santa Monica, and beaches",
+        "severity": "high"
+      },
+      {
+        "name": "Relatively walkable and bikeable, especially around downtown",
+        "severity": "high"
+      },
+      {
+        "name": "Good public transportation options, including the E Line and bus network",
+        "severity": "medium"
+      },
+      {
+        "name": "Nice neighborhood with lots of restaurants and shops",
+        "severity": "medium"
+      },
+      {
+        "name": "Proximity to the beach via bike path",
+        "severity": "medium"
+      }
+    ],
+    "cons": [
+      {
+        "name": "Traffic can be bad, especially during rush hour",
+        "severity": "high"
+      },
+      {
+        "name": "Need a car to get around for most things, as LA is car-centric",
+        "severity": "high"
+      },
+      {
+        "name": "Parking can be difficult",
+        "severity": "medium"
+      }
+    ]
+  },
+  "Santa Monica": {
+    "pros": [
+      {
+        "name": "Close to the beach and offers a vibrant lifestyle with many restaurants and bars",
+        "severity": "medium"
+      },
+      {
+        "name": "Good public transport to Culver City and other areas via bus and light rail.",
+        "severity": "medium"
+      },
+      {
+        "name": "Bike-friendly with bike paths to Culver City and other areas.",
+        "severity": "medium"
+      }
+    ],
+    "cons": [
+      {
+        "name": "High cost of living",
+        "severity": "medium"
+      },
+      {
+        "name": "Traffic can be a problem",
+        "severity": "medium"
+      }
+    ]
+  },
+  "Palms": {
+    "pros": [
+      {
+        "name": "Relatively affordable apartments compared to other Westside areas",
+        "severity": "medium"
+      },
+      {
+        "name": "Good location, near public transportation, and bikeable to work.",
+        "severity": "medium"
+      },
+      {
+        "name": "Close to Culver City, which has its own benefits.",
+        "severity": "low"
+      }
+    ],
+    "cons": [
+      {
+        "name": "Not as nice as other nearby areas like Santa Monica",
+        "severity": "low"
+      }
+    ]
+  },
+  "Venice": {
+    "pros": [
+      {
+        "name": "Proximity to the beach and coastal lifestyle.",
+        "severity": "medium"
+      },
+      {
+        "name": "Good for biking and access to bike paths.",
+        "severity": "medium"
+      },
+      {
+        "name": "Energetic atmosphere with many restaurants and things to do.",
+        "severity": "medium"
+      },
+      {
+        "name": "Relatively easy commute to Culver City (bike or bus).",
+        "severity": "medium"
+      }
+    ],
+    "cons": [
+      {
+        "name": "High cost of living.",
+        "severity": "medium"
+      },
+      {
+        "name": "Homeless population is visible.",
+        "severity": "low"
+      },
+      {
+        "name": "Can be noisy.",
+        "severity": "low"
+      }
+    ]
+  },
+  "Marina del Rey": {
+    "pros": [
+      {
+        "name": "Close to the beach and coastal amenities, including restaurants and shops.",
+        "severity": "medium"
+      },
+      {
+        "name": "Bike-friendly with access to the Ballona Creek bike path for easy access to other areas.",
+        "severity": "medium"
+      },
+      {
+        "name": "Good for young professionals and has a vibrant atmosphere.",
+        "severity": "low"
+      }
+    ],
+    "cons": [
+      {
+        "name": "Potentially more expensive than other neighborhoods.",
+        "severity": "low"
+      }
+    ]
+  },
+  "Mar Vista": {
+    "pros": [
+      {
+        "name": "Good location: close to Culver City, Venice, Santa Monica, and the beach",
+        "severity": "high"
+      },
+      {
+        "name": "Family-oriented/young adult area, peaceful and quiet",
+        "severity": "medium"
+      },
+      {
+        "name": "Walkable and bike-able in some areas",
+        "severity": "medium"
+      },
+      {
+        "name": "Relatively affordable compared to other areas like Santa Monica",
+        "severity": "medium"
+      }
+    ],
+    "cons": [
+      {
+        "name": "Need a car to get around, although public transport is improving",
+        "severity": "medium"
+      }
+    ]
+  },
+  "Playa Vista": {
+    "pros": [
+      {
+        "name": "Close to everything and walkable, gyms, pools included in rentals",
+        "severity": "medium"
+      }
+    ],
+    "cons": []
+  },
+  "Playa del Rey": {
+    "pros": [
+      {
+        "name": "Close to the beach and walkable",
+        "severity": "medium"
+      },
+      {
+        "name": "Relatively close to Culver City",
+        "severity": "low"
+      }
+    ],
+    "cons": [
+      {
+        "name": "Requires a car for transportation",
+        "severity": "medium"
+      },
+      {
+        "name": "Traffic can be bad",
+        "severity": "low"
+      }
+    ]
+  },
+  "Del Rey": {
+    "pros": [
+      {
+        "name": "Close to the beach and bike paths to Culver City and surrounding areas.",
+        "severity": "medium"
+      },
+      {
+        "name": "Offers a marina with restaurants and shops.",
+        "severity": "low"
+      }
+    ],
+    "cons": []
+  }
+}
