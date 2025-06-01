@@ -236,12 +236,52 @@ def compute_final(
     return final
 
 
+def export_markdown(final: list[dict]) -> None:
+    """Export the final analysis to a Markdown file with separate tables for pros and cons."""
+    lines: list[str] = []
+    for entry in final:
+        lines.append(f"## {entry['neighborhood']}")
+        lines.append(f"- **Mentions:** {entry['mention_count']}")
+        lines.append(f"- **Upvotes:** {entry['upvote_sum']}")
+        lines.append("")
+        lines.append("### Pros")
+        lines.append("| Description | Severity |")
+        lines.append("|-------------|----------|")
+        pros = entry.get("pros", [])
+        if pros:
+            for pro in pros:
+                name = pro.get("name", "")
+                severity = pro.get("severity", "")
+                lines.append(f"| {name} | {severity} |")
+        else:
+            lines.append("| None | |")
+        lines.append("")
+        lines.append("### Cons")
+        lines.append("| Description | Severity |")
+        lines.append("|-------------|----------|")
+        cons = entry.get("cons", [])
+        if cons:
+            for con in cons:
+                name = con.get("name", "")
+                severity = con.get("severity", "")
+                lines.append(f"| {name} | {severity} |")
+        else:
+            lines.append("| None | |")
+        lines.append("")
+
+    md_path = Path("data") / "results.md"
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"Markdown exported to {md_path}")
+
+
 def main() -> None:
     comments = fetch_reddit_comments(THREAD_URL)
     mentions = compute_mentions(comments)
     stats = compute_stats(mentions)
     pros_cons = compute_pros_cons(mentions)
     final = compute_final(stats, pros_cons)
+    export_markdown(final)
     print("Pipeline complete.")
 
 
