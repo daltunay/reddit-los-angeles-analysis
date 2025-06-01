@@ -2,27 +2,27 @@
   {
     "neighborhood":"Culver City",
     "mention_count":51,
-    "upvote_sum":144
+    "upvote_sum":142
   },
   {
     "neighborhood":"Santa Monica",
     "mention_count":22,
-    "upvote_sum":99
+    "upvote_sum":96
   },
   {
     "neighborhood":"Venice",
     "mention_count":20,
-    "upvote_sum":88
+    "upvote_sum":86
   },
   {
     "neighborhood":"Del Rey",
     "mention_count":17,
-    "upvote_sum":45
+    "upvote_sum":43
   },
   {
     "neighborhood":"Marina del Rey",
     "mention_count":15,
-    "upvote_sum":42
+    "upvote_sum":40
   },
   {
     "neighborhood":"Mar Vista",
@@ -32,7 +32,7 @@
   {
     "neighborhood":"Palms",
     "mention_count":7,
-    "upvote_sum":27
+    "upvote_sum":26
   },
   {
     "neighborhood":"Playa Vista",
